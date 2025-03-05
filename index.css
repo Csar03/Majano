@@ -30,6 +30,7 @@ h1 {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    flex: 2;
 }
 
 .card {
