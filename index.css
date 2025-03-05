@@ -3,10 +3,6 @@ html, body {
     margin: 0;
 }
 
-.main-content {
-    flex: 1;
-}
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -16,6 +12,10 @@ body {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
 }
 
 h1 {
@@ -34,6 +34,6 @@ footer .logoLetra {
     position: absolute;
     bottom: 0px;
     right: 0px;
-    width: 13%;
+    width: 100px;
     height: auto;
 }
