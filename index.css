@@ -1,10 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-content {
+    flex: 1;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    padding: 50px;
-    background-color: #f4f4f4;
+    background-image: url('resources/fondoMajano.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     color: #333;
+}
+
+footer {
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+}
+
+footer .logoLetra {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 13%;
+    height: auto;
 }
