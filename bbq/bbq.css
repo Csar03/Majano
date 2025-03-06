@@ -89,11 +89,3 @@ footer {
     margin-top: auto;
     position: relative;
 }
-
-footer .logoLetra {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 100px;
-    height: auto;
-}
