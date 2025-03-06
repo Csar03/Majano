@@ -21,20 +21,3 @@ body {
 h1 {
     color: #333;
 }
-
-footer {
-    display: flex;
-    color: black;
-    font-weight: bold;
-    margin-top: auto;
-    position: relative;
-    justify-content: space-around;
-}
-
-footer .logoLetra {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 100px;
-    height: auto;
-}

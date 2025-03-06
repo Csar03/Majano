@@ -81,19 +81,3 @@ h1 {
 .card:hover {
     transform: translateY(-10px);
 }
-
-footer {
-    color: black;
-    padding: 10px;
-    text-align: center;
-    margin-top: auto;
-    position: relative;
-}
-
-footer .logoLetra {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 100px;
-    height: auto;
-}
