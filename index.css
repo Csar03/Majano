@@ -30,11 +30,3 @@ footer {
     position: relative;
     justify-content: space-around;
 }
-
-footer .logoLetra {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    width: 100px;
-    height: auto;
-}
