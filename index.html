@@ -3,17 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Carta Mesón Majano</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="../footer/footer.css">
+        <title>Restaurante Majano</title>
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <div class="main-content">
-            <h1>Mesón Majano</h1>
-        </div>
-        <button onclick="cargarMenu()">Ver Menú</button>
+        <header>
+            <a href="#"><img src="resources/mulaMajano.png" alt="Logo Majano" class="logo"></a>
+            <h1>Bienvenido a Restaurante Majano</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="pages/carta.html">🍽️ Carta</a></li>
+                <li><a href="pages/reservation.html">🪑 Reservar Mesa</a></li>
+                <li><a href="pages/photos.html">📸 Fotos de Platos</a></li>
+                <li><a href="pages/about.html">ℹ️ Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="welcome">
+                <h2>Descubre nuestros sabores tradicionales</h2>
+                <p>En Restaurante Majano, ofrecemos una experiencia culinaria única con platos clásicos preparados con ingredientes frescos. ¡Explora nuestra carta, reserva tu mesa o admira nuestras fotos!</p>
+                <img src="resources/letraMajano.png" alt="Decoración Majano" class="welcome-img">
+            </section>
+        </main>
         <div id="footer-container"></div>
-        <script src="index.js"></script>
+        <script src="js/script.js"></script>
         <script src="footer/footer.js"></script>
     </body>
 </html>

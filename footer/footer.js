@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let rutaFooter = window.location.pathname.includes("bbq") 
-        ? "../footer/footer.html"
-        : "footer/footer.html";
+    let rutaFooter = (window.location.pathname.includes("menu") || window.location.pathname.includes("bbq") || window.location.pathname.includes("pages"))? "../footer/footer.html" : "footer/footer.html";
 
     fetch(rutaFooter)
         .then(response => {
