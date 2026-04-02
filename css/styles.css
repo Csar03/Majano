@@ -1,0 +1,130 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-image: url('../resources/fondoMajano.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8B4513;
+    font-weight: bold;
+    padding: 0.5rem;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #8B4513;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+.menu-sections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-sections a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.menu-sections a:hover {
+    background-color: #f0f0f0;
+}
+
+.menu-section {
+    margin: 2rem 0;
+}
+
+.dish {
+    background-color: white;
+    margin: 1rem auto;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+.dish h3 {
+    margin: 0;
+}
+
+.dish p {
+    margin: 0.5rem 0;
+}
+
+.allergens {
+    margin-top: 0.5rem;
+}
+
+.allergen {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+
+footer {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    margin-top: auto;
+    position: relative;
+    justify-content: space-around;
+}
+
+/* Responsive para móvil */
+@media (max-width: 600px) {
+    nav li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+    .dish {
+        max-width: 90%;
+    }
+    .menu-sections a {
+        margin: 0.5rem;
+    }
+}
