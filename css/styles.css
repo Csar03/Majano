@@ -216,13 +216,46 @@ main {
 }
 
 .allergen {
-    display: inline-block;
-    width: 12px;
-    height: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    margin: 0 4px;
-    border: 1px solid #4a4a4a;
+    margin-right: 4px;
+    font-size: 12px;
+    border: 1px solid #8b4513;
 }
+
+.allergen-legend {
+    margin: 2rem auto 1rem;
+    max-width: 100%;
+    border-top: 1px dashed #ccc;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.75rem;
+    color: #4a4a4a;
+    font-size: 0.9rem;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.legend-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #f5f5dc;
+    border: 1px solid #daa520;
+    font-size: 0.95rem;
+}
+
+/* ========== FORM STYLES ========== */
 
 /* ========== FORM STYLES ========== */
 form {
@@ -541,3 +574,4 @@ footer p.phone span {
         padding: 0.9rem 0.8rem;
     }
 }
+
